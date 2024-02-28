@@ -7,6 +7,10 @@ android {
     namespace = "com.example.testitus"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.testitus"
         minSdk = 34
